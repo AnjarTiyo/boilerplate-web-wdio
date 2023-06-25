@@ -1,0 +1,23 @@
+{
+  "name": "wdio-web-auto",
+  "version": "1.0.0",
+  "description": "Web Automation using WebDriver.io",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"This is the test\"",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "Anjar Tiyo Saputro",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.11.0",
+    "@wdio/cli": "^8.11.2",
+    "@wdio/local-runner": "^8.11.2",
+    "@wdio/mocha-framework": "^8.11.0",
+    "chai": "^4.3.7",
+    "chromedriver": "^114.0.2",
+    "dot-env": "^0.0.1",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-safaridriver-service": "^2.1.0"
+  }
+}
